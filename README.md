@@ -1,6 +1,6 @@
-# Lita::Ermahgerd
+# lita-ermahgerd
 
-TODO: Write a gem description
+A Lita handler that translates chat to ermahgerd-speak
 
 ## Installation
 
@@ -8,22 +8,11 @@ Add this line to your application's Gemfile:
 
     gem 'lita-ermahgerd'
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install lita-ermahgerd
-
 ## Usage
 
-TODO: Write usage instructions here
+    Lita > ermahgerd oh my god
+    ER MAH GERD
 
-## Contributing
+## License
 
-1. Fork it ( http://github.com/<my-github-username>/lita-ermahgerd/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+[MIT](http://opensource.org/licenses/MIT)
