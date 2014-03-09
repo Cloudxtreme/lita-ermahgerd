@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Duyet Nguyen"]
   spec.email         = ["duyetlnguyen@gmail.com"]
   spec.summary       = %q{A Lita handler that translates chat to ermahgerd-speak}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/duyetln/lita-ermahgerd"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec", ">= 3.0.0.beta1"
 end
