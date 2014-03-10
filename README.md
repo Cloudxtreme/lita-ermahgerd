@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 ## Usage
 
-    Lita > ermahgerd oh my god
+    Lita > ermgd oh my god
     ER MAH GERD
 
 ## License
