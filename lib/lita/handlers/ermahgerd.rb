@@ -4,7 +4,7 @@ require "ermahgerd"
 module Lita
   module Handlers
     class Ermahgerd < Handler
-      route /^ermahgerd\s+(.+)/, :ermahgerd, command: true, help: { "ermgd TEXT" => "Translate TEXT into ermahgerd-speak" }
+      route /^ermgd\s+(.+)/, :ermahgerd, help: { "ermgd TEXT" => "Translate TEXT into ermahgerd-speak" }
 
       def ermahgerd(response)
         response.reply(
